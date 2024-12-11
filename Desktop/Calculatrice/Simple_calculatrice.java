@@ -3,7 +3,8 @@ import java.util.*;
 public class Simple_calculatrice {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+//test
+        
         System.out.println("Bienvenue dans la calculatrice");
         System.out.print("Entrez le premier nombre : ");
         double a = scanner.nextDouble();
