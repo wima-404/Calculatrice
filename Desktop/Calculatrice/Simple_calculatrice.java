@@ -4,7 +4,8 @@ public class Simple_calculatrice {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        
+        int operation;
+        do {
         System.out.println("Bienvenue dans la calculatrice");
         System.out.print("Entrez le premier nombre : ");
         double a = scanner.nextDouble();
@@ -60,7 +61,7 @@ public class Simple_calculatrice {
             default:
                 System.out.println("Operation invalide.");
         }
-
+        while(operation != 8);
         scanner.close();
     }
 }
