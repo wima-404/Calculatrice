@@ -13,7 +13,7 @@ public class Simple_calculatrice {
         System.out.print("Entrez le deuxieme nombre :  ");
         double b = scanner.nextDouble();
 
-        System.out.print("Choisissez une operation : \n 1-Addition \n 2-Soustraction \n 3-Multiplication \n 4-Division \n 5-Puissance \n 6-Racine_carre \n 7-Factorielle : ");
+        System.out.print("Choisissez une operation : \n 1-Addition \n 2-Soustraction \n 3-Multiplication \n 4-Division \n 5-Puissance \n 6-Racine_carre \n 7-Factorielle : \n 8-Quitter:");
         int operation = scanner.nextInt();
 
         double result;
